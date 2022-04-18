@@ -2,4 +2,4 @@
 'cosmic-ui-alpha': patch
 ---
 
-feat: add avatar by wasaisai
+增加 loading 组件

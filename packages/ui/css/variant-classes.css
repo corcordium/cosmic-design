@@ -53,10 +53,10 @@
     { background-color: transparent; }
 .-v-bg-inapparent.hover,
 .-v-bg-inapparent:hover
-    { background-color: var(--color-gray-200); }
+    { background-color: var(--color-gray-50); }
 .-v-bg-inapparent.active,
 .-v-bg-inapparent:active
-    { background-color: var(--color-gray-300); }
+    { background-color: var(--color-gray-50); }
 .-v-bg-inapparent.disabled,
 .-v-bg-inapparent:disabled
     { background-color: transparent; }
@@ -98,7 +98,7 @@
     { background-color: var(--color-gray-900); }
 
 .-v-border-none
-    { border: 1px transparent; }
+    { border: 1px solid transparent; }
 
 .-v-border-inapparent
     { border-color: transparent; }

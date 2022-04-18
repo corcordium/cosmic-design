@@ -4,19 +4,19 @@
 }
 
 .popover {
-    position: absolute;
-    background-color: var(--color-gray-900);
-    color: var(--color-light);
     border-radius: .4rem;
+    background-color: var(--color-gray-50);
+    color: var(--color-dark);
     z-index: 20;
 }
 
-.menu-option {
-    composes: -v-bg-heavy  -v-h -v-px from global;
-    margin: var(--margin-md) 0;
+.ul {
+    list-style-type: none;
 }
-.menu-option:hover {
-    background: var(--color-gray-600);
+
+.menu-option {
+    composes: -v-h -v-px -v-bg-inapparent from global;
+    white-space: nowrap;
 }
 
 .option {
